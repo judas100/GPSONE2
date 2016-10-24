@@ -9,7 +9,7 @@ var DialogGPS = function(message,description,callback,title,buttons){
 
 	if(Object.prototype.toString.call(_buttons) === "[object Array]") {
 
-		cordova.exec(callback,null,'DialogGPS','DISPLAY',[_title,_message,_description,_buttons]);
+		cordova.exec(callback,nulld,'DialogGPS','DISPLAY',[_title,_message,_description,_buttons]);
 			
 	}
 };
